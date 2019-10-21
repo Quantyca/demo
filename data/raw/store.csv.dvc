@@ -1,0 +1,7 @@
+md5: 94ee9bc108ccb625c91cdaa31fcd7a61
+outs:
+- md5: 30c9ccb5af66c21f65e7d1da967e6251
+  path: store.csv
+  cache: true
+  metric: false
+  persist: false

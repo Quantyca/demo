@@ -82,6 +82,7 @@ data/*
 !data/external
 data/external/*
 !data/external/.gitkeep
+!data/external/*.dvc
 
 !data/interim
 !data/interim/.gitkeep
@@ -93,6 +94,7 @@ data/processed/*
 !data/raw
 data/raw/*
 !data/raw/.gitkeep
+!data/raw/*.dvc
 
 !data/demo
 data/demo/*
