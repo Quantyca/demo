@@ -2,3 +2,6 @@
 url = /opt/dvc-storage/
 [core]
 remote = myremote
+[cache]
+protected = true
+type = "hardlink,symlink"
