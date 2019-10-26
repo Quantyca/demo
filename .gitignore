@@ -85,11 +85,14 @@ data/external/*
 !data/external/*.dvc
 
 !data/interim
+data/interim/*
 !data/interim/.gitkeep
+!data/interim/*.dvc
 
 !data/processed
 data/processed/*
 !data/processed/.gitkeep
+!data/processed/*.dvc
 
 !data/raw
 data/raw/*
@@ -99,6 +102,10 @@ data/raw/*
 !data/demo
 data/demo/*
 !data/demo/.gitkeep
+
+# exclude models and metrics from source control by default
+models/*
+metrics/*
 
 # Mac OS-specific storage files
 .DS_Store
