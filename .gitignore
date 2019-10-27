@@ -106,6 +106,7 @@ data/demo/*
 # exclude models and metrics from source control by default
 models/*
 metrics/*
+notebooks/outs/*
 
 # Mac OS-specific storage files
 .DS_Store
