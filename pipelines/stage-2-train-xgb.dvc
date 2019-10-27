@@ -1,0 +1,14 @@
+md5: e09a2ab05ca4fba02310d8b2c8318f98
+cmd: ../scripts/stage-2-train-xgb.sh
+wdir: .
+deps:
+- md5: be1ac70d6b957bd82349dbdf0001554d
+  path: ../notebooks/stg_2_train_xgb.ipynb
+- md5: 30c0a134adad81134f0cdbe8c59af80b
+  path: ../data/processed/train.csv
+outs:
+- md5: 49395f21590fde00624fcac77d27b0ba
+  path: ../models/model-xgb.pkl
+  cache: false
+  metric: false
+  persist: false

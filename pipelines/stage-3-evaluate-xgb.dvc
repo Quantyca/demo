@@ -1,0 +1,16 @@
+md5: 43a07f922c1d2d79fe1e87f56b4d6d95
+cmd: ../scripts/stage-3-evaluate-xgb.sh
+wdir: .
+deps:
+- md5: 2947e9a4cc6bfaccc4135894074f90dc
+  path: ../notebooks/stg_3_evaluate_xgb.ipynb
+- md5: 30c0a134adad81134f0cdbe8c59af80b
+  path: ../data/processed/train.csv
+- md5: 49395f21590fde00624fcac77d27b0ba
+  path: ../models/model-xgb.pkl
+outs:
+- md5: b999166a925569107e774d6a722a692c
+  path: ../metrics/xgb.metrics
+  cache: false
+  metric: true
+  persist: false

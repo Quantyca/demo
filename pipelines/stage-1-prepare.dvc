@@ -1,0 +1,16 @@
+md5: 0f8f5900cac2dcbd61798c8dd34088ff
+cmd: ../scripts/stage-1-prepare.sh
+wdir: .
+deps:
+- md5: 651bb0a74c028352c7709b837056bc96
+  path: ../notebooks/stg_1_prepare.ipynb
+- md5: d47aedd9e2d580e06a6ef7ce1732e8b6
+  path: ../data/raw/train.csv
+- md5: 30c9ccb5af66c21f65e7d1da967e6251
+  path: ../data/raw/store.csv
+outs:
+- md5: 30c0a134adad81134f0cdbe8c59af80b
+  path: ../data/processed/train.csv
+  cache: false
+  metric: false
+  persist: false

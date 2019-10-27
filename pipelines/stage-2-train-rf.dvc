@@ -1,0 +1,14 @@
+md5: cf6c55714b06b8f24500a97e07671297
+cmd: ../scripts/stage-2-train-rf.sh
+wdir: .
+deps:
+- md5: 5ed64fad48863b1ab7e27c91afd09096
+  path: ../notebooks/stg_2_train_rf.ipynb
+- md5: 30c0a134adad81134f0cdbe8c59af80b
+  path: ../data/processed/train.csv
+outs:
+- md5: 14ea4fe481c0b92deaada1a89f2c6928
+  path: ../models/model-rf.pkl
+  cache: false
+  metric: false
+  persist: false

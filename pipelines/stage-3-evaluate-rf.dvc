@@ -1,0 +1,16 @@
+md5: b85394cc3cac135b0d0f76d7accec9d5
+cmd: ../scripts/stage-3-evaluate-rf.sh
+wdir: .
+deps:
+- md5: 8b8cced4b84edeb6d12faf4b8d7d2e28
+  path: ../notebooks/stg_3_evaluate_rf.ipynb
+- md5: 30c0a134adad81134f0cdbe8c59af80b
+  path: ../data/processed/train.csv
+- md5: 14ea4fe481c0b92deaada1a89f2c6928
+  path: ../models/model-rf.pkl
+outs:
+- md5: a0d30072dfdb598ddc7eb183f7ba51f0
+  path: ../metrics/rf.metrics
+  cache: false
+  metric: true
+  persist: false
